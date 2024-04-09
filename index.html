@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="buttons" class="flex mt-1">
+        <button id="cursando" class="rounded-full bg-violet-600 text-white text-s text-center px-4 py-2">Cursando</button>
+        <button id="horario" class="rounded-full bg-violet-600 text-white text-s text-center px-4 py-2 ml-1">Horario</button>
+    </div>
+   <div id="card" class="w-1/4 flex flex-col justify-center border-2 m-2">
+        <div id="header" class="flex g-5p">
+            <div id="img-container" class="w-20">
+                <img src="test.svg" alt="" class="mr-2">
+            </div>
+            <div id="header-info">
+                <p><span id="subject-code" class="text-l"> B4L1 </span> - <span id="subject-name" class="text-l">Ecuaciones Diferenciales</span> (<span id="group">C</span>)</p>
+            </div>
+        </div>
+        <div id="info" class="mt-3">
+            <p id="info-profesor">Profesor: <span id="professor-name" class="text-violet-900 text-mb-primary">Jacuinde Ruiz Julio Cesar</span></p>
+            <p id="info-grade">Calificacion final: <span id="final-grade" class="text-violet-900 text-mb-primary">No capturada</span></p>
+        </div>
+        <div id="partials" class="items-center mb-2 md:mb-1 md:h-20 w-100">
+            <p id="partial" class="inline-block rounded-full bg-amber-300 text-xs text-center pt-1 pb-1 pl-1 pr-1 px-2">Sin parciales evaluados</p>
+        </div>
+        <div id="schedule" class="block items-center">
+            <p id="hour" class="inline-block ml-2 rounded-full bg-gray-300 pt-1 pb-1 pl-1 pr-1 px-2 text-xs text-center">Lu: 09:00-10:00</p>
+            <p id="hour" class="inline-block ml-2 rounded-full bg-gray-300 pt-1 pb-1 pl-1 pr-1 px-2 text-xs text-center">Ma: 09:00-10:00</p>
+            <p id="hour" class="inline-block ml-2 rounded-full bg-gray-300 pt-1 pb-1 pl-1 pr-1 px-2 text-xs text-center">Mi: 09:00-10:00</p>
+            <p id="hour" class="inline-block ml-2 rounded-full bg-gray-300 pt-1 pb-1 pl-1 pr-1 px-2 text-xs text-center">Ju: 09:00-10:00</p>
+            <p id="hour" class="inline-block ml-2 rounded-full bg-gray-300 pt-1 pb-1 pl-1 pr-1 px-2 text-xs text-center">Vi: 09:00-10:00</p>
+        </div>
+        <div id="program" class="text-violet-900">
+            <p>Ver programa</p>
+        </div>
+   </div>
+   <div id="card2" class="border-t-4 border-amber-300 w-1/5 border-b-2 border-r-2 border-l-2">
+        <p class="text-violet-900 font-bold">9:00-10:00</p>
+        <p class="mt-1">Ecuaciones Diferenciales</p>
+        <p>Aula K5 / Profesor Jacuinde Ruiz Julio Cesar</p>
+   </div>
+
+</body>
+<script src="main.js"></script>
+</html>
+
+
